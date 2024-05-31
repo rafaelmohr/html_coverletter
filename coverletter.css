@@ -1,0 +1,49 @@
+@page {
+    size: A4;
+    margin: 3em;
+}
+
+html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 14px;
+
+    
+}
+
+.cover-letter {
+    max-width: 21cm; /* A4 width */
+    margin: auto;
+    padding: 20mm;
+}
+
+header {
+    text-align: right;
+    margin-bottom: 2mm;
+
+    font-size: 0.95rem;
+
+    & p {
+        margin: 5px 0;
+    }
+
+    & h1 {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+}
+
+
+.recipient p {
+    margin-block: 0.2rem;
+}
+
+
+main p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+

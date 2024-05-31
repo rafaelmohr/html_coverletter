@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Letter</title>
+    <link rel="stylesheet" href="coverletter.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+</head>
+
+<body>
+    <div class="cover-letter">
+        <header>
+            <h1>Name</h1>
+            <p>Street</p>
+            <p>City</p>
+            <p>E-Mail</p>
+            <p>Phone</p>
+        </header>
+        <main>
+            <div class="recipient">
+                <p>Recipient</p>
+                <p>Name</p>
+                <p>Street</p>
+                <p>City</p>
+            </div>
+
+            <p style="text-align: right;"><span>
+                    <script id="date-el">
+                        moment.locale('de');
+                        document.getElementById("date-el").parentNode.innerHTML = moment().format('DD.MM.YYYY');
+                    </script>
+                </span></p>
+            <h4>Title</h5>
+
+                Salutation,
+                <br />
+
+                <p>
+                    Paragraph 1
+                </p>
+
+                <p>
+                    Paragraph 2
+                </p>
+
+                <p>
+                    Paragraph 3
+                </p>
+
+                <p>Best Regards,</p>
+                <p>Name</p>
+            
+        </main>
+    </div>
+</body>
+
+</html>
